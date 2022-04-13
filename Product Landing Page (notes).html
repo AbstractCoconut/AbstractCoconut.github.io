@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body {
+background: linear-gradient(90deg, purple, darkblue);
+text-align: center;
+margin: 0;
+}
+
+#header {
+position: fixed;
+border-style: solid;
+width: 100%;
+background: rgba(0, 200, 0, 0.4);
+margin-top: -150px;
+}
+
+#header-img {
+width: 100px;
+float: left;
+}
+
+#company_name {
+float: left;
+font-size: 30px;
+margin-left: 20px;
+color: hsl(165, 100%, 70%);
+}
+
+h1 {
+color: orange;
+margin-top: 150px;
+}
+
+#nav-bar {
+float: right;
+}
+
+#product_list {
+color: orange;
+}
+
+@media (max-width: 1280px)
+ul {
+position: relative;
+}
+
+.nav-link {
+color: lightgreen;
+}
+
+footer {
+color: orange;
+margin-top: 310px;
+}
+
+</style>
+
+<header id="header">
+<img id="header-img" src="C:\Users\Utilisateur\Desktop\madshit logo\118-1185748_band-logo-generator-free-vector-and-clip-art-inspiration-portrait-of-a2.png" alt="logo of the company">
+<p id="company_name"><s>Space</s>EarthX</p>
+<nav id="nav-bar">
+<ul style="list-style-type: none;">
+<li> <a class="nav-link" href="#product_list"> Products </a></li>
+<li> <a class="nav-link" href="#video"> Watch the action </a></li>
+<li> <a class="nav-link" href="#email"> Email us </a></li>
+</ul>
+</nav>
+</header>
+
+<body>
+<h1> We make spaceships that can't go to space. </h1>
+<p id="product_list">
+EarthHopper : Can only jump (it's still very cool tho) <br>
+Pidgeon 9 : Reliable and relatively safe (Doesn't crash into windows, despite the name) <br>
+AtmosphereShip : Can only fly in atmosphere (Subject to name change depending future capabilities)
+</p>
+
+<iframe id="video" controls
+width="600"
+height="300"
+source src="https://www.youtube.com/watch?v=quBXvVJceec"
+></iframe>
+
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+<input id="email" type="email" placeholder="Contact us to get your wonderful Earthship" name="email" style="width: 500px;">
+<input id="submit" type="submit">
+</form>
+
+<footer> We do not cover: maintenance, refueling, authorizations, storage or piloting. But we are sure you will figure those out. </footer>
+
+<!--
+added the flex into the #nav-bar
+--------------------------------------------------
+https://www.youtube.com/watch?v=quBXvVJceec
+C:\Users\Utilisateur\Desktop\Divers (tk)\- Random\atr 1\1MCh0o18
+
+<iframe id="video" controls
+width="600"
+height="300"
+source src="https://www.youtube.com/watch?v=quBXvVJceec"
+></iframe>
+
+<video id="video" controls
+width="600" 
+height="300">
+<source src="C:\Users\Utilisateur\Desktop\Divers (tk)\- Random\atr 1\MCh0o18.webm"
+></video>
+--------------------------------------------------
+<br><br><br><br><br><br>
+--------------------------------------------------
+
+#nav-bar {
+display: flex;
+justify-content: flex-end;
+}
+^Old nav-bar with a flex property (!NEED TO RE-ADD THE DISPLAY FLEX SOMEWHERE)
+--------------------------------------------------
+C:\Users\Utilisateur\Desktop\madshit logo\118-1185748_band-logo-generator-free-vector-and-clip-art-inspiration-portrait-of-a.png
+
+-->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+<!--
+display: inline;
+margin: 0;
+padding: 0;
+
+can change video source
+
+make sure u understand the query (its supposed to stay put when on mobile but follow scrolling when on desktop)
+^just look a tuto
+
+#buy_container {
+display: grid;
+grid-template-area:
+"Product_1 Product_2 Product_3"
+background-color: green; !important
+width: 100%;
+border-style: solid;
+}
+
+<div id="buy_container">
+product a
+aa
+</div>
+^2 blocks above are an absolute failure, i just don't know how to grid or even flex
+-->

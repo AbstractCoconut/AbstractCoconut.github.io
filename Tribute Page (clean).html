@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body {
+background: linear-gradient(90deg, yellow, purple);
+}
+
+p {
+text-align: center;
+}
+
+#img-div {
+text-align: center;
+}
+
+#image {
+width: 15%; 
+max-width: 100%; 
+height: auto;
+display: block;
+margin: auto;
+}
+
+#tribute-info {
+text-align: center;
+margin-top: 45px;
+}
+
+ul {
+list-style-position: inside;
+text-align: center;
+display: inline;
+}
+
+footer {
+display: flex;
+justify-content: center;
+margin-top: 85px;
+}
+
+</style>
+<body id="main">
+
+<h1 id="title" style="text-align: center;"> Lewis Hamilton </h1>
+<!-- 
+inline style doesn't seem like a good idea but it's for learning (it's actually useful just below to specify a margin top without applying it to all <p>)
+-->
+<p style="margin-top: -20px;"> a formula 1 legend </p>
+
+<figure id="img-div">
+<img id="image" src="https://upload.wikimedia.org/wikipedia/commons/1/18/Lewis_Hamilton_2016_Malaysia_2.jpg"  alt="Picture of Lewis Hamilton at the 2016 Malaysian Grand Prix">
+<figcaption id="img-caption" style="margin-top: 10px;"> Hamilton at the 2016 Malaysian Grand Prix </figcaption>
+</figure>
+
+<h2 id="tribute-info"> <u> Driver world titles </u> </h2>
+
+<ul>
+<li style="margin-right: 34px;"><strong>2008</strong> <em>(Vodafone McLaren Mercedes)</em></li>
+<li><strong>2014</strong> <em>(Mercedes AMG Petronas F1 Team)</em></li>
+<li><strong>2015</strong> <em>(Mercedes AMG Petronas F1 Team)</em></li>
+<li><strong>2017</strong> <em>(Mercedes AMG Petronas F1 Team)</em></li>
+<li><strong>2018</strong> <em>(Mercedes AMG Petronas F1 Team)</em></li>
+<li><strong>2019</strong> <em>(Mercedes AMG Petronas F1 Team)</em></li>
+<li><strong>2020</strong> <em>(Mercedes AMG Petronas F1 Team)</em></li>
+</ul>
+
+<p style="margin-top: 40px;"><em>"Still I Rise"</em></p>
+
+<footer>
+<a id="tribute-link" href="https://en.wikipedia.org/wiki/Lewis_Hamilton" target="_blank"> Wikipedia page of Lewis Hamilton </a>
+</footer>
+
+</body>
+</html>
